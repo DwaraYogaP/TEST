@@ -4,8 +4,8 @@ import joblib,os
 
 
 from sklearn.feature_extraction.text import TfidfVectorizer
-data_train = pd.read_excel("/Book2.xlsx")
-data_test = pd.read_excel("/Book1.xlsx")
+data_train = pd.read_excel("Book2.xlsx")
+data_test = pd.read_excel("Book1.xlsx")
 
 vectorizer = TfidfVectorizer()
 train_vectors = vectorizer.fit_transform(data_train['Gejala'])
@@ -18,7 +18,7 @@ def load(file):
     return load
 
 
-model  = load("/gigi_clf.pkl")
+model  = load("gigi_clf.pkl")
 
 teks = st.text_input("")
 

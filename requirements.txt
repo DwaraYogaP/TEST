@@ -1,5 +1,5 @@
-streamlit
-pandas
-joblib
-scikit-learn
-openpyxl
+pip install streamlit
+pip install pandas
+pip install joblib
+pip install scikit-learn
+pip install openpyxl

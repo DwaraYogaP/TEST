@@ -18,7 +18,7 @@ def load(file):
     return load
 
 
-model  = load("gigi_clf.pkl")
+model  = load("svm.pkl")
 
 teks = st.text_input("")
 
